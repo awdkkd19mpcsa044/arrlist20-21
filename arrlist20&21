@@ -1,0 +1,50 @@
+import java.util.*;
+public class arrlist21
+{
+public static void main(String[]args)
+{
+ArrayList<Integer>a=new ArrayList<Integer>();
+a.add(30);
+a.add(40);
+a.add(50);
+a.add(15);
+a.add(20);
+a.add(25);
+a.add(7);
+a.add(99);
+System.out.println(a);
+Iterator<Integer>z=a.iterator();
+while(z.hasNext())
+{
+int x=z.next();
+System.out.println(a);
+}
+}
+}
+
+
+import java.util.*;
+public class arrlist20
+{
+public static void main(String[]args)
+{
+ArrayList<Integer>a=new ArrayList<Integer>();
+a.add(30);
+a.add(40);
+a.add(50);
+a.add(15);
+a.add(20);
+a.add(25);
+a.add(7);
+a.add(99);
+System.out.println(a);
+Iterator<Integer>z=a.iterator();
+while(z.hasNext())
+{
+int x=z.next();
+if(z.next()==50,15,20,7)
+z.remove();
+}
+System.out.println(a);
+}
+}
